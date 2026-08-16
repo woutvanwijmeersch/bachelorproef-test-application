@@ -1,0 +1,836 @@
+[
+  {
+    "screenshot": "check_course/01-course-overview.png",
+    "difference_percentage": 5.847145061728395,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the two screenshots.",
+        "duration_seconds": 113.32378119998612
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the 'Learn How to Test Programs' course title has changed from white to pink.",
+        "duration_seconds": 39.61839779998991
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the arrangement, size, color, text, or any other aspect of the components on the page.",
+        "duration_seconds": 26.83121210001991
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the 'Learn How to Test Programs' course title has changed from white to purple.",
+        "duration_seconds": 42.12875219999114
+      }
+    }
+  },
+  {
+    "screenshot": "check_course/02-goto-course.png",
+    "difference_percentage": 0.0,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
+        "duration_seconds": 73.88007809998817
+      },
+      "with_diff_mask": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the two screenshots provided.",
+        "duration_seconds": 49.03883189999033
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 21.378838200005703
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of visual content, layout, and text. There are no differences detected between the baseline and the updated version.",
+        "duration_seconds": 56.26184389999253
+      }
+    }
+  },
+  {
+    "screenshot": "create_course/01-course-overview.png",
+    "difference_percentage": 5.847145061728395,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences observed between the baseline and the updated version.",
+        "duration_seconds": 53.77275560001726
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the 'Learn How to Test Programs' course title has changed from purple to pink.",
+        "duration_seconds": 42.85920179999084
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the arrangement, size, color, text, or any other aspect of the components on the page.",
+        "duration_seconds": 27.651749699987704
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the 'Learn How to Test Programs' course title has changed from purple to pink.",
+        "duration_seconds": 45.21367859997554
+      }
+    }
+  },
+  {
+    "screenshot": "create_course/02-new-course-empty-form.png",
+    "difference_percentage": 0.0,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the components, their positions, sizes, colors, text, or any other visual aspects.",
+        "duration_seconds": 57.257872600021074
+      },
+      "with_diff_mask": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the baseline and updated screenshots.",
+        "duration_seconds": 39.96960260000196
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 21.312780599982943
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 43.735440300020855
+      }
+    }
+  },
+  {
+    "screenshot": "create_course/03-new-course-filled-form.png",
+    "difference_percentage": 0.0,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the visual presentation or content between the baseline and the updated version.",
+        "duration_seconds": 54.5628379000118
+      },
+      "with_diff_mask": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the two screenshots.",
+        "duration_seconds": 39.699770400009584
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 22.45916880000732
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 40.16395650000777
+      }
+    }
+  },
+  {
+    "screenshot": "create_course/04-course-overview-with-new-course.png",
+    "difference_percentage": 18.22391975308642,
+    "ai": {
+      "screenshots_only": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.9,
+        "description": "The text \"Software Quality Assurance Fundamentals\" in the updated screenshot is truncated, meaning the full text is not fully visible.",
+        "duration_seconds": 52.80208069999935
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the course titles has changed from white to purple.",
+        "duration_seconds": 41.24552549998043
+      },
+      "with_diff_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the 'Courses' header has changed from a darker purple to a lighter purple in the updated screenshot.",
+        "duration_seconds": 22.67592360000708
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the course titles has changed from white to a darker shade, possibly purple, in the updated screenshot.",
+        "duration_seconds": 45.49313540000003
+      }
+    },
+    "faulty_file": "src/Components/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail initialization",
+    "code_description": "The issue stems from how `courseDetail` is initialized within the `CourseDetail` component. It's declared as a `useState` variable named `courseDetail` and then immediately re-assigned to a JSX element using the `course` state variable, creating a stale and undefined value. The logic checks `if (course.id)` to render the course detail, but because `courseDetail` remains the `useState` variable initialized to an empty string, there's an initial render where it attempts to render an empty string, leading to truncation. The variable `course` is set to an object, but `courseDetail` remains an empty string initially.  The intent is to dynamically assign the course details, but the initialization and reassignment are problematic and lead to the observed truncation. This is because the `courseDetail` initially contains an empty string, which is then displayed, before the async operation completes and `courseDetail` is updated.",
+    "recommendation": "Change the initialization of `courseDetail` to a JSX element with a placeholder or null to prevent the empty string from rendering initially, and remove the variable `courseDetail`, so we can use `course` directly.\n\n```javascript\nimport React, { useState, useEffect, useContext } from 'react';\nimport { Link, useParams, useNavigate } from 'react-router-dom';\nimport ReactMarkdown from 'react-markdown';\nimport Context from '../../Context';\nimport Loading from '../Loading';\n\nconst CourseDetail = () => {\n  const context = useContext(Context.Context);\n  const [course, setCourseDetail] = useState(null); // Initialize to null or a placeholder\n  const [isLoading, setIsLoading] = useState(true);\n  const authUser = context.authenticatedUser;\n\n  const { id } = useParams();\n  let navigate = useNavigate();\n\n  useEffect(() => {\n    // Fetch a course from the database\n    const controller = new AbortController();\n    context.data.getCourse(id)\n      .then(response => {\n        if (response.id) {\n          setCourseDetail(response)\n        } else {\n          // If there is no course ID, direct to Not Found\n          navigate('/notfound');\n        }\n      })\n      .catch((error) => {\n        console.error('Error fetching and parsing course', error);\n        navigate('/error');\n      })\n      .finally(() => {\n        setIsLoading(false);\n      });\n    // Clean up to prevent memory leak\n    return () => controller?.abort();\n  }, [id, navigate, context.data]);\n\n  if (isLoading) {\n    return <Loading />;\n  }\n\n  if (!course) {\n    return null; // Or a placeholder if appropriate\n  }\n\n  return (\n    <div className=\"wrap\">\n      <h2 >Course Detail</h2 >\n      <div className=\"main--flex\">\n        <div >\n          <h3 className=\"course--detail--title\">Course</h3 >\n          <h4 className=\"course--name\">{course.title}</h4 >\n          {course.User\n            ? (<p>By {course.User.firstName} {course.User.lastName}</p>)\n            : null\n          }\n          <ReactMarkdown>{course.description}</ReactMarkdown>\n        </div >\n        <div >\n          <h3 className=\"course--detail--title\">Estimated Time</h3 >\n          <p>{course.estimatedTime}</p>\n\n          <h3 className=\"course--detail--title\">Materials Needed</h3 >\n          <ul className=\"course--detail--list\">\n            <ReactMarkdown>{course.materialsNeeded}</ReactMarkdown>\n          </ul >\n        </div >\n      </div >\n    </div >\n  );\n}\n\nexport default CourseDetail;\n```",
+    "duration_seconds": 120.68209769998793
+  },
+  {
+    "screenshot": "delete_course/01-course-overview.png",
+    "difference_percentage": 8.965663580246913,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical with no visual differences detected.",
+        "duration_seconds": 47.371035599993775
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the course titles has changed from white to pink.",
+        "duration_seconds": 42.877954900002806
+      },
+      "with_diff_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the 'Courses' header has changed from a darker purple to a lighter purple in the updated screenshot.",
+        "duration_seconds": 22.42522539998754
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the course titles has changed from white to pink.",
+        "duration_seconds": 41.97101239999756
+      }
+    }
+  },
+  {
+    "screenshot": "delete_course/02-course-details.png",
+    "difference_percentage": 0.0,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
+        "duration_seconds": 52.986811000009766
+      },
+      "with_diff_mask": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the baseline and updated screenshots.",
+        "duration_seconds": 41.111698499997146
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 19.980490799993277
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical with no visual differences detected.",
+        "duration_seconds": 41.27633809999679
+      }
+    }
+  },
+  {
+    "screenshot": "delete_course/03-course-overview-deleted-course.png",
+    "difference_percentage": 5.847145061728395,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences observed between the baseline and the updated version.",
+        "duration_seconds": 52.75319789999048
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the 'Learn How to Test Programs' course title has changed from purple to pink.",
+        "duration_seconds": 44.50681340001756
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the arrangement, size, color, text, or any other aspect of the components on the page.",
+        "duration_seconds": 29.15152750001289
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the 'Learn How to Test Programs' course title has changed from purple to pink.",
+        "duration_seconds": 44.8025957000209
+      }
+    }
+  },
+  {
+    "screenshot": "signin/01-not-signed-in-course-overview.png",
+    "difference_percentage": 0.0,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
+        "duration_seconds": 74.65328350002528
+      },
+      "with_diff_mask": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the two screenshots provided.",
+        "duration_seconds": 53.5224978000042
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical in terms of visual content, layout, and text. There are no differences in the content or appearance of the web page.",
+        "duration_seconds": 24.102501899993513
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical with no visual differences detected.",
+        "duration_seconds": 53.435365099983755
+      }
+    }
+  },
+  {
+    "screenshot": "signin/02-empty-form.png",
+    "difference_percentage": 0.0,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the components, their positions, sizes, colors, text, or any other visual aspects.",
+        "duration_seconds": 54.97727930001565
+      },
+      "with_diff_mask": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the baseline and updated screenshots.",
+        "duration_seconds": 40.49778149998747
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 20.88351529999636
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 39.774677100009285
+      }
+    }
+  },
+  {
+    "screenshot": "signin/03-filled-form.png",
+    "difference_percentage": 0.0,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the visual presentation of the web page.",
+        "duration_seconds": 50.977403400000185
+      },
+      "with_diff_mask": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the two screenshots.",
+        "duration_seconds": 40.020170500007225
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 21.24836630001664
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 42.92263180000009
+      }
+    }
+  },
+  {
+    "screenshot": "signin/04-signed-in-course-overview.png",
+    "difference_percentage": 5.847145061728395,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences observed between the baseline and the updated version.",
+        "duration_seconds": 53.28968829999212
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the 'Learn How to Test Programs' course title has changed from purple to pink.",
+        "duration_seconds": 40.32697259998531
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the arrangement, size, color, text, or any other aspect of the components on the page.",
+        "duration_seconds": 30.02440920000663
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the 'Learn How to Test Programs' course title has changed from purple to pink.",
+        "duration_seconds": 45.380872900015675
+      }
+    }
+  },
+  {
+    "screenshot": "signout/01-course-overview-signed-in.png",
+    "difference_percentage": 5.847145061728395,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences observed between the baseline and the updated version.",
+        "duration_seconds": 24.537380000023404
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the 'Learn How to Test Programs' course title has changed from purple to pink.",
+        "duration_seconds": 41.66847410000628
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the arrangement, size, color, text, or any other aspect of the components on the page.",
+        "duration_seconds": 29.630521699989913
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the 'Learn How to Test Programs' course title has changed from purple to pink.",
+        "duration_seconds": 46.06344349999563
+      }
+    }
+  },
+  {
+    "screenshot": "signout/01-course-overview-signed-out.png",
+    "difference_percentage": 5.847145061728395,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and appearance. There are no visible differences between the baseline and the updated version.",
+        "duration_seconds": 53.70116609998513
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the 'Learn How to Test Programs' course title has changed from white to pink.",
+        "duration_seconds": 43.02409509997233
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the arrangement, size, color, text, or any other aspect of the components on the page.",
+        "duration_seconds": 27.68341529997997
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the course titles has changed from white to pink.",
+        "duration_seconds": 40.17073270000401
+      }
+    }
+  },
+  {
+    "screenshot": "signup/01-not-signed-in-course-overview.png",
+    "difference_percentage": 5.847145061728395,
+    "ai": {
+      "screenshots_only": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.9,
+        "description": "The text 'Learn How to Test Programs' in the course title is fully visible in the baseline screenshot, but in the updated screenshot, the text is truncated.",
+        "duration_seconds": 56.56878709999728
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the 'Learn How to Test Programs' course title has changed from white to pink.",
+        "duration_seconds": 44.59429840001394
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the arrangement, size, color, text, or any other aspect of the components shown.",
+        "duration_seconds": 29.230565799982287
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the 'Learn How to Test Programs' course title has changed from white to pink.",
+        "duration_seconds": 46.28118709998671
+      }
+    },
+    "faulty_file": "src/Components/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail",
+    "code_description": "The issue is that the `courseDetail` variable is being reassigned within the `CourseDetail` component. Initially, it's declared as `const courseDetail = useState('');` which will throw an error. Then, when the course data is fetched successfully, `courseDetail` is reassigned to a JSX element. This reassignment likely causes the rendering to fail or behave unexpectedly, potentially leading to truncation. Additionally, it's using state for `courseDetail` but doesn't actually use the setter function (`setCourseDetail`). The value is only assigned once. The correct way would be to assign the result of `setCourseDetail` directly to `courseDetail`.  While not the direct cause of the truncation, the incorrect initialization and reassignment of `courseDetail` are contributing to rendering issues.",
+    "recommendation": "Replace the lines:\n`const courseDetail = useState('');`\n`courseDetail = <div className=\"wrap\">`\n\nwith\n`const [courseDetail, setCourseDetail] = useState('');`\n`setCourseDetail(<div className=\"wrap\">`",
+    "duration_seconds": 43.52718199999072
+  },
+  {
+    "screenshot": "signup/02-signed-up-course-overview.png",
+    "difference_percentage": 5.847145061728395,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences observed between the baseline and the updated version.",
+        "duration_seconds": 54.63625619999948
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the 'Learn How to Test Programs' course title has changed from purple to pink.",
+        "duration_seconds": 42.86392309999792
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the arrangement, size, color, text, or any other aspect of the components on the page.",
+        "duration_seconds": 28.32596059999196
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the 'Learn How to Test Programs' course title has changed from purple to pink.",
+        "duration_seconds": 44.84363730001496
+      }
+    }
+  },
+  {
+    "screenshot": "signup/02-signup-empty-form.png",
+    "difference_percentage": 0.0,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical with no visual differences detected.",
+        "duration_seconds": 50.72050029999809
+      },
+      "with_diff_mask": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the baseline and updated screenshots.",
+        "duration_seconds": 42.58722479999415
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 19.55905020001228
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 42.949473900021985
+      }
+    }
+  },
+  {
+    "screenshot": "signup/03-signup-filled-form.png",
+    "difference_percentage": 0.0,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of visual content, layout, and text. There are no differences observed.",
+        "duration_seconds": 53.07099279999966
+      },
+      "with_diff_mask": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the baseline and updated screenshots.",
+        "duration_seconds": 39.77265530001023
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 21.67938009998761
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 40.51486890000524
+      }
+    }
+  },
+  {
+    "screenshot": "update_course/01-course-overview.png",
+    "difference_percentage": 18.22391975308642,
+    "ai": {
+      "screenshots_only": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.9,
+        "description": "The text \"Software Quality Assurance Fundamentals\" in the updated screenshot is truncated, meaning the full text is not fully visible.",
+        "duration_seconds": 52.31965109999874
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the course titles has changed from white to purple.",
+        "duration_seconds": 40.48724430002039
+      },
+      "with_diff_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the 'Courses' header has changed from a darker purple to a lighter purple in the updated screenshot.",
+        "duration_seconds": 23.311591899982886
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the course titles has changed from white to a darker shade, possibly purple, in the updated screenshot.",
+        "duration_seconds": 45.93185630001244
+      }
+    },
+    "faulty_file": "src/Components/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail variable assignment",
+    "code_description": "The `courseDetail` variable is being assigned directly to a JSX element without first checking if the `course` object exists. The code uses a conditional rendering with `if (course.id)` to display the course details. However, `courseDetail` is initialized as an empty string before the `useEffect` hook finishes and populates the course data.  When `useEffect` doesn't find a course (due to a network error or an ID that doesn't exist), `setCourseDetail` is not called, leaving `courseDetail` as the initial empty string.  This then results in an attempt to render an empty HTML element which is then truncated in the screenshot because of the surrounding layout. Additionally, the code is assigning the course object to a variable named `courseDetail`, then directly assigning to a JSX element, which is poor style and likely contributes to confusion about what is rendering.",
+    "recommendation": "Change the initialization and assignment of `courseDetail` to avoid rendering when `course` is null/undefined. Here's the recommended change:\n\n```javascript\nconst CourseDetail = () => {\n  const context = useContext(Context.Context);\n  const [course, setCourseDetail] = useState(null);\n  const [isLoading, setIsLoading] = useState(true);\n  const authUser = context.authenticatedUser;\n\n  const { id } = useParams();\n  let navigate = useNavigate();\n\n  useEffect(() => {\n    // Fetch a course from the database\n    const controller = new AbortController();\n    context.data.getCourse(id)\n      .then(response => {\n        if (response.id) {\n          setCourseDetail(response);\n        } else {\n          // If there is no course ID, direct to Not Found\n          navigate('/notfound');\n        }\n      })\n      .catch((error) => {\n        console.error('Error fetching and parsing course', error);\n        navigate('/error');\n      })\n      .finally(() => {\n        setIsLoading(false);\n      });\n    // Clean up to prevent memory leak\n    return () => controller?.abort();\n  }, [id, navigate, context.data]);\n\n  if (isLoading) {\n    return <Loading />;\n  }\n\n  if (!course) {\n    return null; // Or a 'Not Found' component\n  }\n\n  return (\n    <div>\n      {/* Course Detail Components Here - use the 'course' variable directly */}      \n    </div>\n  );\n};\n```\n\nThis change initializes `course` to `null`, then renders a loading indicator while data is fetched. When the data is retrieved, `setCourseDetail` updates the state.  After the data is fetched, a check `if (!course)` is performed which, if true, causes the component to render nothing (or a dedicated 'Not Found' component). Finally, the component uses `course` instead of `courseDetail` directly in the JSX render.  This prevents the rendering of an empty element before the data has been retrieved.",
+    "duration_seconds": 96.37699049999355
+  },
+  {
+    "screenshot": "update_course/02-course-details.png",
+    "difference_percentage": 0.0,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
+        "duration_seconds": 54.33127130000503
+      },
+      "with_diff_mask": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the two screenshots.",
+        "duration_seconds": 40.96657680001226
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 21.672842700005276
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical with no visual differences detected.",
+        "duration_seconds": 42.64741999999387
+      }
+    }
+  },
+  {
+    "screenshot": "update_course/03-previous-course-data.png",
+    "difference_percentage": 0.0,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the visual presentation or content between the baseline and the updated version.",
+        "duration_seconds": 53.548088199982885
+      },
+      "with_diff_mask": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the two screenshots provided.",
+        "duration_seconds": 39.302833299996564
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 20.794731600006344
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical with no visual differences detected.",
+        "duration_seconds": 39.03773759998148
+      }
+    }
+  },
+  {
+    "screenshot": "update_course/04-updated-course-data.png",
+    "difference_percentage": 0.0,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
+        "duration_seconds": 53.355979999993
+      },
+      "with_diff_mask": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the baseline and updated screenshots.",
+        "duration_seconds": 42.46674350000103
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical in terms of visual content, layout, and text. There are no differences in the components, their positions, sizes, colors, or text truncation. The content and appearance of the web page are the same in both screenshots.",
+        "duration_seconds": 28.582311200007098
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical with no visual differences detected.",
+        "duration_seconds": 41.52827760000946
+      }
+    }
+  },
+  {
+    "screenshot": "update_course/05-updated-course-in-overview.png",
+    "difference_percentage": 8.965663580246913,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical with no visual differences detected.",
+        "duration_seconds": 48.687139499990735
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the course titles has changed from white to pink.",
+        "duration_seconds": 41.58601220001583
+      },
+      "with_diff_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the 'Courses' header has changed from a darker purple to a lighter purple in the updated screenshot.",
+        "duration_seconds": 23.885149900015676
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text color of the course titles has changed from white to pink.",
+        "duration_seconds": 41.889723200001754
+      }
+    }
+  }
+]
