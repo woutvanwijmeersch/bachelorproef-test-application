@@ -1,0 +1,402 @@
+[
+  {
+    "screenshot": "01.png",
+    "difference_percentage": 18.40817901234568,
+    "ai": {
+      "screenshots_only": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text 'Debugging 101' in the 'Debugging 101' course title is fully visible in the baseline screenshot, but in the updated screenshot, the text appears to be cut off, suggesting it is truncated.",
+        "duration_seconds": 116.88590819999808
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 37.4756272000086
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text \"Debugging 101\" in the first screenshot is fully visible, while in the second screenshot, the text is partially cut off, indicating a truncation.",
+        "duration_seconds": 25.707079799991334
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 38.98014980001608
+      }
+    },
+    "faulty_file": "src/Components/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail",
+    "code_description": "The visual difference, where 'Debugging 101' is truncated, arises because of how the `courseDetail` variable is assigned within the `CourseDetail` component. It's initialized as an empty string `let courseDetail = useState('');` but is later re-assigned with a complex JSX structure *after* the `course` object is conditionally rendered (when `course.id` is truthy). The issue is that `courseDetail` is not a React state variable and should be assigned to `courseDetail` via `setCourseDetail`. This re-assignment may be happening slightly too late in the render cycle to allow the full text to be rendered correctly. This could be a timing issue or related to how the DOM is updated and reflowed, causing the text to be cut off.",
+    "recommendation": "Change `let courseDetail = useState('');` to `const [courseDetail, setCourseDetail] = useState('');` and subsequently change  `setCourseDetail(response)` inside the useEffect, this will assign to React state, ensuring proper re-rendering and displaying the entire course title.",
+    "duration_seconds": 55.690548399987165
+  },
+  {
+    "screenshot": "02.png",
+    "difference_percentage": 18.40817901234568,
+    "ai": {
+      "screenshots_only": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text 'Debugging 101' in the 'Debugging 101' course title is fully visible in the baseline screenshot, but in the updated screenshot, the text appears to be cut off, suggesting it is truncated.",
+        "duration_seconds": 27.820486000011442
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 37.40250480000395
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text \"Debugging 101\" in the first screenshot is fully visible, while in the second screenshot, the text is partially cut off, indicating a truncation.",
+        "duration_seconds": 25.36147620002157
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 38.517860299994936
+      }
+    },
+    "faulty_file": "src/Components/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail variable assignment",
+    "code_description": "The issue lies within the `CourseDetail.js` component. The `courseDetail` variable is declared using `const courseDetail = useState('');` which initializes it as an empty string. However, later in the component, `courseDetail` is reassigned a JSX element `</div>` when `course.id` is present.  This reassignment creates a state variable (`courseDetail`) that is never updated, and therefore, the component might be rendering the course title truncated if the font-size or container width is too small, as the text is getting cut off. The issue arises because the React component is re-rendering without updating the state variable.",
+    "recommendation": "Change the declaration of `courseDetail` to `let courseDetail;` to prevent it from being treated as a constant.  Then, move the JSX assignment within the `if (course.id)` block to ensure the component is properly rendering the course details.",
+    "duration_seconds": 40.72467299998971
+  },
+  {
+    "screenshot": "03.png",
+    "difference_percentage": 18.40817901234568,
+    "ai": {
+      "screenshots_only": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text 'Debugging 101' in the 'Debugging 101' course title is fully visible in the baseline screenshot, but in the updated screenshot, the text appears to be cut off, suggesting it is truncated.",
+        "duration_seconds": 28.30437259998871
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 37.13671649998287
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text \"Debugging 101\" in the first screenshot is fully visible, while in the second screenshot, the text is partially cut off, indicating a truncation.",
+        "duration_seconds": 25.474299399997108
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 38.75539329997264
+      }
+    },
+    "faulty_file": "src/Components/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail",
+    "code_description": "The visual truncation of 'Debugging 101' likely stems from how `courseDetail` is assigned in the `CourseDetail.js` component.  It's initialized as `let courseDetail = useState('');` and later reassigned within the `useEffect` hook when a course is successfully fetched. However, the reassignment uses string concatenation with a `div` element which results in the course details getting appended rather than replacing the initial value. This could lead to content overflowing beyond expected boundaries or being cut off depending on how the surrounding layout is structured. While the initial value of the state is a blank string, the later appending can lead to the content spilling out and thus being truncated.",
+    "recommendation": "Change the line `let courseDetail = useState('');` to `let courseDetail = null;`. Then replace `courseDetail = <div className=\"wrap\">...</div>` with `courseDetail = course;`. This ensures that the course details are rendered directly from the `course` object rather than relying on string concatenation, resolving the truncation issue.",
+    "duration_seconds": 50.21670960000483
+  },
+  {
+    "screenshot": "04.png",
+    "difference_percentage": 18.40817901234568,
+    "ai": {
+      "screenshots_only": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text 'Debugging 101' in the 'Debugging 101' course title is fully visible in the baseline screenshot, but in the updated screenshot, the text appears to be cut off, suggesting it is truncated.",
+        "duration_seconds": 27.935762999986764
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 37.70599720001337
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text \"Debugging 101\" in the first screenshot is fully visible, while in the second screenshot, the text is partially cut off, indicating a truncation.",
+        "duration_seconds": 25.603571899991948
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 39.055285200010985
+      }
+    },
+    "faulty_file": "src/Components/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail variable assignment",
+    "code_description": "The visual difference (truncated text 'Debugging 101') likely arises from how the `courseDetail` variable is being assigned within the `CourseDetail` component. Specifically, the code uses `courseDetail = <div className=\"wrap\">...</div>` after checking `if (course.id)`. This assignment overwrites the state variable `courseDetail` which is initialized as useState('');. The state variable is important for React to re-render the page whenever the data changes. Therefore, the page will only render properly after the `course.id` value changes. As the course is first loaded, the state variable is re-initialized to an empty string. This causes the course title text to be cut off, because when the `course` object is first received and `course.id` is loaded, the variable is reassigned rather than set. This reassignment prevents react from correctly updating the DOM. To fix this, the variable should be reassigned with `setCourseDetail`.",
+    "recommendation": "Change the line `courseDetail = <div className=\"wrap\">...</div>` to `setCourseDetail(<div className=\"wrap\">...</div>)`",
+    "duration_seconds": 53.93891270001768
+  },
+  {
+    "screenshot": "05.png",
+    "difference_percentage": 18.40817901234568,
+    "ai": {
+      "screenshots_only": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text 'Debugging 101' in the 'Debugging 101' course title is fully visible in the baseline screenshot, but in the updated screenshot, the text appears to be cut off, suggesting it is truncated.",
+        "duration_seconds": 27.765856400015764
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 37.61246440000832
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text \"Debugging 101\" in the first screenshot is fully visible, while in the second screenshot, the text is partially cut off, indicating a truncation.",
+        "duration_seconds": 25.37230119999731
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 39.03004469998996
+      }
+    },
+    "faulty_file": "src/Components/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail",
+    "code_description": "The issue stems from how `courseDetail` is being assigned within the `CourseDetail.js` component.  It's declared as `let courseDetail = useState('');` which initializes it as an empty string. Then, later, inside the `useEffect` hook, it's assigned a JSX element: `courseDetail = <div className=\"wrap\">...</div>`. This re-assignment, instead of setting the state, is likely interfering with React's rendering cycle.  Since `courseDetail` is not a state variable, it\u2019s treated as a regular variable, which means that the component isn't re-rendering when the value of `courseDetail` changes, leading to the text truncation because it renders once after course data is initially fetched and then doesn\u2019t update when the content might need more space. Because it's being reassigned, the value isn't being managed correctly by React.",
+    "recommendation": "Replace `let courseDetail = useState('');` and `courseDetail = <div className=\"wrap\">...</div>` with `courseDetail`.  Change the state of `course` to `courseDetail` and remove the `let` declaration. This will allow the component to properly re-render when the course data changes. The corrected code will look like this:\n\n```javascript\nimport React, { useState, useEffect, useContext } from 'react';\nimport { Link, useParams, useNavigate } from 'react-router-dom';\nimport ReactMarkdown from 'react-markdown';\nimport Context from '../../Context';\nimport Loading from '../Loading';\n\nconst CourseDetail = () => {\n  const context = useContext(Context.Context);\n  const [course, setCourseDetail] = useState({}); // Changed from useState(''); and renamed to 'course'\n  const [isLoading, setIsLoading] = useState(true);\n  const authUser = context.authenticatedUser;\n\n  const { id } = useParams();\n  let navigate = useNavigate();\n\n  useEffect(() => {\n    // Fetch a course from the database\n    const controller = new AbortController();\n    context.data.getCourse(id)\n      .then(response => {\n        if (response.id) {\n          setCourseDetail(response) // Changed assignment\n        } else {\n          // If there is no course ID, direct to Not Found\n          navigate('/notfound');\n        }\n      })\n      .catch((error) => {\n        console.error('Error fetching and parsing course', error);\n        navigate('/error');\n      })\n      .finally(() => {\n        setIsLoading(false);\n      });\n    // Clean up to prevent memory leak\n    return () => controller?.abort();\n  }, [id, navigate, context.data]);\n\n  if (course.id) {\n    const courseDetail = <div className=\"wrap\">\n      <h2>Course Detail</h2>\n      <div className=\"main--flex\">\n        <div>\n          <h3 className=\"course--detail--title\">Course</h3>\n          <h4 className=\"course--name\">{course.title}</h4>\n          {course.User\n            ? (<p>By {course.User.firstName} {course.User.lastName}</p>) : null\n          }\n          <ReactMarkdown>{course.description}</ReactMarkdown>\n        </div>\n        <div>\n          <h3 className=\"course--detail--title\">Estimated Time</h3>\n          <p>{course.estimatedTime}</p>\n\n          <h3 className=\"course--detail--title\">Materials Needed</h3>\n          <ul className=\"course--detail--list\">\n            <ReactMarkdown>{course.materialsNeeded}</ReactMarkdown>\n          </ul>\n        </div>\n      </div>\n    </div>\n  }\n\n  const handleDelete = (event) => {\n    event.preventDefault();\n    context.data.deleteCourse(id, authUser.emailAddress, authUser.password)\n      .then((response) => {\n        // If course deletion is successful, then there should be no response returned\n        if (response.length) {\n          navigate('/error');\n        } else {\n          navigate('/');\n        }\n      })\n      .catch((error) => {\n        console.error(error);\n        navigate('/error');\n      });\n  };\n\n  return (\n    isLoading ?\n      <Loading />\n      : course ? (\n        <div>\n          <div className=\"actions--bar\">\n            <div className=\"wrap\">\n              {authUser && (authUser.id === course.User.id) ?\n                <Link to={\\``/courses/${id}/update`}\" className=\"button\">Update Course</Link>\n                : null\n              }\n              {authUser && (authUser.id === course.User.id) ?\n                <button className=\"button\" onClick={handleDelete}>Delete Course</button>\n                : null\n              }\n              <Link to='/' className=\"button button-secondary\">Return to List</Link>\n            </div>\n          </div>\n          {courseDetail}\n        </div>\n      ) : null\n  );\n}\n\nexport default CourseDetail;\n\n```",
+    "duration_seconds": 149.78856220000307
+  },
+  {
+    "screenshot": "06.png",
+    "difference_percentage": 18.40817901234568,
+    "ai": {
+      "screenshots_only": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text 'Debugging 101' in the 'Debugging 101' course title is fully visible in the baseline screenshot, but in the updated screenshot, the text appears to be cut off, suggesting it is truncated.",
+        "duration_seconds": 27.657886400003918
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 37.10202109999955
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text \"Debugging 101\" in the first screenshot is fully visible, while in the second screenshot, the text is partially cut off, indicating a truncation.",
+        "duration_seconds": 25.367369300016435
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 38.81945549999364
+      }
+    },
+    "faulty_file": "src/Components/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail variable assignment",
+    "code_description": "The visual regression test shows that the text 'Debugging 101' is truncated in the updated screenshot. This is likely caused by an incorrect variable assignment. Inside the `CourseDetail` component, `courseDetail` is declared as a state variable using `const courseDetail = useState('')`. Later, it is reassigned a JSX element when `course.id` exists, specifically `courseDetail = <div className=\"wrap\">...</div>`. However, `courseDetail` is initialized with an empty string before the `if` condition check. This means that initially when the `course` object hasn't loaded, an empty string or undefined is being rendered, which is not what we want. The intent is to render `courseDetail` only *after* the `course` data has been fetched. This could happen because the component is re-rendering more frequently than it needs to, or because an incorrect value is being assigned to the state. There could be an issue in the component's logic which is not loading `course.title` properly. In short, a stale `courseDetail` is being rendered before the full data is loaded.",
+    "recommendation": "The correct approach is to ensure that the `courseDetail` variable is assigned directly to the JSX element when the `course` data is available. This can be done by removing the initial assignment and initializing the `courseDetail` variable as an empty div or similar, and rendering based on `course` being a valid object. Also, check for any unnecessary re-renders which may cause `courseDetail` to change inappropriately. Finally, confirm that the API is returning `course.title` correctly",
+    "duration_seconds": 56.569134999997914
+  },
+  {
+    "screenshot": "07.png",
+    "difference_percentage": 18.40817901234568,
+    "ai": {
+      "screenshots_only": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text 'Debugging 101' in the 'Debugging 101' course title is fully visible in the baseline screenshot, but in the updated screenshot, the text appears to be cut off, suggesting it is truncated.",
+        "duration_seconds": 27.62730979998014
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 37.30332430000999
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text \"Debugging 101\" in the first screenshot is fully visible, while in the second screenshot, the text is partially cut off, indicating a truncation.",
+        "duration_seconds": 25.455658099992434
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 38.8784791000071
+      }
+    },
+    "faulty_file": "src/Components/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail assignment",
+    "code_description": "The issue lies in how `courseDetail` is assigned within the `CourseDetail` component. Instead of directly rendering the `course` object within the conditional block, `courseDetail` is assigned a new `div` element, which is then immediately overwritten with the course details. This creates a race condition or a brief period where the rendered content is not the course details, potentially leading to truncation because the height of the container has already been determined.",
+    "recommendation": "Change the conditional rendering to directly render the course details: \n\n```javascript\nif (course.id) {\n  return (\n    <div className=\"wrap\">\n      <h2&gt;Course Detail</h2>\n      <div className=\"main--flex\">\n        <div>\n          <h3 className=\"course--detail--title\">Course</h3>\n          <h4 className=\"course--name\">{course.title}</h4>\n          {course.User\n            ? (<p>By {course.User.firstName} {course.User.lastName}</p>)\n            : null\n          }\n          <ReactMarkdown>{course.description}</ReactMarkdown>\n        </div\n        <div>\n          <h3 className=\"course--detail--title\">Estimated Time</h3>\n          <p>{course.estimatedTime}</p>\n\n          <h3 className=\"course--detail--title\">Materials Needed</h3>\n          <ul className=\"course--detail--list\">\n            <ReactMarkdown>{course.materialsNeeded}</ReactMarkdown>\n          </ul\n        </div\n      </div\n    </div>\n  );\n}\n```",
+    "duration_seconds": 59.76959009998245
+  },
+  {
+    "screenshot": "08.png",
+    "difference_percentage": 18.40817901234568,
+    "ai": {
+      "screenshots_only": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text 'Debugging 101' in the 'Debugging 101' course title is fully visible in the baseline screenshot, but in the updated screenshot, the text appears to be cut off, suggesting it is truncated.",
+        "duration_seconds": 27.72230700001819
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 37.09880199999316
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text \"Debugging 101\" in the first screenshot is fully visible, while in the second screenshot, the text is partially cut off, indicating a truncation.",
+        "duration_seconds": 25.59669629999553
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 38.79295550001552
+      }
+    },
+    "faulty_file": "src/Components/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail variable assignment",
+    "code_description": "The issue lies in the `CourseDetail.js` component. Specifically, the `courseDetail` variable is declared as `let courseDetail = useState('');` which is immediately overwritten later with a JSX element assigned to `courseDetail`.  Because `courseDetail` is a `let` variable, React will not track changes to it and thus the view will not render the correct content, potentially leading to truncation.  The initialization with `useState('')` isn't used effectively, and the variable's value gets overwritten directly, rendering the state variable initialization useless.  This incorrect assignment prevents React from properly updating the component's display when the course data changes.",
+    "recommendation": "Change `let courseDetail = useState('');` to `let courseDetail;` and remove the initialization, so that `courseDetail` can properly hold the JSX element and trigger re-renders when the `course` object changes.  Also, remove the unnecessary assignments from `course` object directly into the HTML.",
+    "duration_seconds": 41.68643279999378
+  },
+  {
+    "screenshot": "09.png",
+    "difference_percentage": 18.40817901234568,
+    "ai": {
+      "screenshots_only": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text 'Debugging 101' in the 'Debugging 101' course title is fully visible in the baseline screenshot, but in the updated screenshot, the text appears to be cut off, suggesting it is truncated.",
+        "duration_seconds": 27.67478019997361
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 37.41648020001594
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text \"Debugging 101\" in the first screenshot is fully visible, while in the second screenshot, the text is partially cut off, indicating a truncation.",
+        "duration_seconds": 24.87511330001871
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 52.98016420000931
+      }
+    },
+    "faulty_file": "src/Components/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail",
+    "code_description": "The issue lies within the `CourseDetail.js` component. The variable `courseDetail` is declared using `let courseDetail = useState('')` and then later reassigned inside the `useEffect` hook. Because it's `let` and not `const`, this reassignment occurs *every* render, but the *initial* value of `courseDetail` is not being properly set.  This leads to a situation where the state is never properly populated, and the conditional rendering `<div className=\"wrap\">...</div>` does not get displayed correctly, leading to text truncation. The conditional statement `if (course.id)` is also misleading as the `courseDetail` variable is reassigned to a different variable that is defined in JSX, not to the state variable `course`. \n\n This is the root cause of the ",
+    "recommendation": "Rename `courseDetail` to `course` in `CourseDetail.js` to match the state variable being updated and remove the assignment of the state variable `course`. Then, the course detail information will be rendered correctly.",
+    "duration_seconds": 43.973594499984756
+  },
+  {
+    "screenshot": "10.png",
+    "difference_percentage": 18.40817901234568,
+    "ai": {
+      "screenshots_only": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text 'Debugging 101' in the 'Debugging 101' course title is fully visible in the baseline screenshot, but in the updated screenshot, the text appears to be cut off, suggesting it is truncated.",
+        "duration_seconds": 28.55544570001075
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 38.26769730000524
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text \"Debugging 101\" in the first screenshot is fully visible, while in the second screenshot, the text is partially cut off, indicating a truncation.",
+        "duration_seconds": 26.144960200006608
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 39.47431499999948
+      }
+    },
+    "faulty_file": "src/Components/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail variable assignment",
+    "code_description": "The `courseDetail` variable is being assigned a JSX element directly within the `CourseDetail` component using `let courseDetail = useState('');` and later re-assigned using `courseDetail = <div .../>`.  The initial assignment is incorrect; `courseDetail` should be a `useState` variable and it is likely that the initial assignment value of empty string is causing the text truncation because the div is getting rendered prematurely. The `if (course.id)` block attempts to conditionally render the details, but the initial assignment to an empty string prevents proper rendering and could lead to truncation issues. Furthermore, the code's logic uses `courseDetail` as a variable to hold the JSX to render, rather than using state to manage the display of the course details.  A better approach would be to use the `course` state directly within the JSX render and avoid this unnecessary variable assignment.",
+    "recommendation": "Remove the initial assignment `let courseDetail = useState('');` and directly render the JSX within the `if (course.id)` condition using the `course` state variable. The entire JSX block related to courseDetail should become part of the `return` statement, ensuring that it is updated whenever `course` changes.",
+    "duration_seconds": 47.195620300015435
+  }
+]
