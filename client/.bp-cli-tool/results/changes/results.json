@@ -1,0 +1,342 @@
+[
+  {
+    "screenshot": "01.png",
+    "difference_percentage": 8.852112153495522,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
+        "duration_seconds": 131.25118670001393
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 45.59922099998221
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the updated screenshot appears to be truncated, with some lines of text being cut off at the bottom of the page, particularly in the 'Materials Needed' section.",
+        "duration_seconds": 26.107065599993803
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 47.042453499976546
+      }
+    }
+  },
+  {
+    "screenshot": "02.png",
+    "difference_percentage": 8.852112153495522,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
+        "duration_seconds": 23.99796350003453
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 46.15643000003183
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the updated screenshot appears to be truncated, with some lines of text being cut off at the bottom of the page, particularly in the 'Materials Needed' section.",
+        "duration_seconds": 26.75396369997179
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 47.71795279998332
+      }
+    }
+  },
+  {
+    "screenshot": "03.png",
+    "difference_percentage": 8.852112153495522,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
+        "duration_seconds": 23.49584109999705
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 46.97441270004492
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the updated screenshot appears to be truncated, with some lines of text being cut off at the bottom of the page, particularly in the 'Materials Needed' section.",
+        "duration_seconds": 26.144491199986078
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 48.056656799977645
+      }
+    }
+  },
+  {
+    "screenshot": "04.png",
+    "difference_percentage": 8.852112153495522,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
+        "duration_seconds": 24.02073869999731
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 47.17326369998045
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the updated screenshot appears to be truncated, with some lines of text being cut off at the bottom of the page, particularly in the 'Materials Needed' section.",
+        "duration_seconds": 26.031107100017834
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 47.62409499997739
+      }
+    }
+  },
+  {
+    "screenshot": "05.png",
+    "difference_percentage": 8.852112153495522,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
+        "duration_seconds": 23.995651400007773
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 47.35105479997583
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the updated screenshot appears to be truncated, with some lines of text being cut off at the bottom of the page, particularly in the 'Materials Needed' section.",
+        "duration_seconds": 26.95473870000569
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 47.80550630000653
+      }
+    }
+  },
+  {
+    "screenshot": "06.png",
+    "difference_percentage": 8.852112153495522,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
+        "duration_seconds": 24.192577600013465
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 47.589399499993306
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the updated screenshot appears to be truncated, with some lines of text being cut off at the bottom of the page, particularly in the 'Materials Needed' section.",
+        "duration_seconds": 26.657234199985396
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 47.918512400006875
+      }
+    }
+  },
+  {
+    "screenshot": "07.png",
+    "difference_percentage": 8.852112153495522,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
+        "duration_seconds": 24.377297300030477
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 47.35606890002964
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the updated screenshot appears to be truncated, with some lines of text being cut off at the bottom of the page, particularly in the 'Materials Needed' section.",
+        "duration_seconds": 26.42767449998064
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 49.02691680000862
+      }
+    }
+  },
+  {
+    "screenshot": "08.png",
+    "difference_percentage": 8.852112153495522,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
+        "duration_seconds": 24.154251800035127
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 47.58844510000199
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the updated screenshot appears to be truncated, with some lines of text being cut off at the bottom of the page, particularly in the 'Materials Needed' section.",
+        "duration_seconds": 98.8326878999942
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 47.83592749998206
+      }
+    }
+  },
+  {
+    "screenshot": "09.png",
+    "difference_percentage": 8.852112153495522,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
+        "duration_seconds": 26.156617900007404
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 49.00536720000673
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the updated screenshot appears to be truncated, with some lines of text being cut off at the bottom of the page, particularly in the 'Materials Needed' section.",
+        "duration_seconds": 26.21459230000619
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 48.98501489998307
+      }
+    }
+  },
+  {
+    "screenshot": "10.png",
+    "difference_percentage": 8.852112153495522,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
+        "duration_seconds": 24.354397399991285
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 47.49674799997592
+      },
+      "with_diff_percentage": {
+        "category": "Text truncation",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the updated screenshot appears to be truncated, with some lines of text being cut off at the bottom of the page, particularly in the 'Materials Needed' section.",
+        "duration_seconds": 26.380216300021857
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the header bar at the top of the page has changed from purple to a lighter shade of purple.",
+        "duration_seconds": 48.48442930000601
+      }
+    }
+  }
+]
