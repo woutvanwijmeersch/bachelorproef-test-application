@@ -1,6 +1,6 @@
 [
   {
-    "screenshot": "check_course/01-course-overview.png",
+    "screenshot": "01.png",
     "difference_percentage": 0.0,
     "ai": {
       "screenshots_only": {
@@ -8,509 +8,33 @@
         "severity": "None",
         "confidence": 1.0,
         "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 127.24386220000451
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the two screenshots.",
-        "duration_seconds": 37.59107769999537
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visible differences.",
-        "duration_seconds": 19.879212100000586
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 39.839640700025484
-      }
-    }
-  },
-  {
-    "screenshot": "check_course/02-goto-course.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
-        "duration_seconds": 78.74346470000455
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the two screenshots provided.",
-        "duration_seconds": 51.82743879998452
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 21.29429610000807
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical in terms of visual content, layout, and text. There are no differences detected between the baseline and the updated version.",
-        "duration_seconds": 58.47426220000489
-      }
-    }
-  },
-  {
-    "screenshot": "create_course/01-course-overview.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1,
-        "description": "The two screenshots appear to be identical in terms of layout, content, and appearance. There are no visible differences between the baseline and the updated version.",
-        "duration_seconds": 54.00011839999934
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the baseline and updated screenshots.",
-        "duration_seconds": 42.747794200025965
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 22.140696799993748
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 42.95561169998837
-      }
-    }
-  },
-  {
-    "screenshot": "create_course/02-new-course-empty-form.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the components, their positions, sizes, colors, text, or any other visual aspects.",
-        "duration_seconds": 59.66316769999685
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the baseline and updated screenshots.",
-        "duration_seconds": 38.55660770001123
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 20.387470599991502
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 41.382159000000684
-      }
-    }
-  },
-  {
-    "screenshot": "create_course/03-new-course-filled-form.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the visual presentation or content between the baseline and the updated version.",
-        "duration_seconds": 54.0816560999956
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the two screenshots.",
-        "duration_seconds": 40.22737420001067
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 21.585818800027482
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 40.47697970000445
-      }
-    }
-  },
-  {
-    "screenshot": "create_course/04-course-overview-with-new-course.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 48.57819679999375
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the baseline and updated screenshots.",
-        "duration_seconds": 41.81092859999626
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 19.139674699981697
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 41.30519179999828
-      }
-    }
-  },
-  {
-    "screenshot": "delete_course/01-course-overview.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 47.313248399994336
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the baseline and updated screenshots.",
-        "duration_seconds": 39.89640440000221
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 20.85708169999998
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 41.57683449998149
-      }
-    }
-  },
-  {
-    "screenshot": "delete_course/02-course-details.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
-        "duration_seconds": 55.32151499998872
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the baseline and updated screenshots.",
-        "duration_seconds": 42.26036240000394
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 19.350743999995757
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 42.575375200016424
-      }
-    }
-  },
-  {
-    "screenshot": "delete_course/03-course-overview-deleted-course.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1,
-        "description": "The two screenshots appear to be identical in terms of layout, content, and appearance. There are no visible differences between the baseline and the updated version.",
-        "duration_seconds": 52.928339500009315
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the baseline and updated screenshots.",
-        "duration_seconds": 39.95561199999065
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 20.301725700002862
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 38.44230329999118
-      }
-    }
-  },
-  {
-    "screenshot": "signin/01-not-signed-in-course-overview.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1,
-        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
-        "duration_seconds": 76.24844809999922
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the two screenshots provided.",
-        "duration_seconds": 51.09339340002043
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical in terms of visual content, layout, and text. There are no differences in the content or appearance of the web page.",
-        "duration_seconds": 26.26981969998451
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 51.033159099984914
-      }
-    }
-  },
-  {
-    "screenshot": "signin/02-empty-form.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1,
-        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the components, their positions, sizes, colors, text, or any other visual aspects.",
-        "duration_seconds": 54.92185210000025
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the baseline and updated screenshots.",
-        "duration_seconds": 39.67433410001104
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 19.587631000002148
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 39.77339650000795
-      }
-    }
-  },
-  {
-    "screenshot": "signin/03-filled-form.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1,
-        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the visual presentation of the web page.",
-        "duration_seconds": 51.964816699997755
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the two screenshots.",
-        "duration_seconds": 38.803842900000745
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 19.45406119999825
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 41.4408918999834
-      }
-    }
-  },
-  {
-    "screenshot": "signin/04-signed-in-course-overview.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1,
-        "description": "The two screenshots appear to be identical in terms of layout, content, and appearance. There are no visible differences between the baseline and the updated version.",
-        "duration_seconds": 52.373119199997745
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the baseline and updated screenshots.",
-        "duration_seconds": 37.82397330002277
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 19.31705179999699
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 39.18057759999647
-      }
-    }
-  },
-  {
-    "screenshot": "signout/01-course-overview-signed-in.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1,
-        "description": "The two screenshots appear to be identical in terms of layout, content, and appearance. There are no visible differences between the baseline and the updated version.",
-        "duration_seconds": 24.836747399996966
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the baseline and updated screenshots.",
-        "duration_seconds": 40.858264200011035
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 20.33727629997884
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 40.524088799982565
-      }
-    }
-  },
-  {
-    "screenshot": "signout/01-course-overview-signed-out.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 47.435490399977425
+        "duration_seconds": 40.74130930000683
       },
       "with_diff_mask": {
         "category": "None",
         "severity": "None",
         "confidence": 1.0,
         "description": "There are no visual differences between the baseline and the updated screenshots.",
-        "duration_seconds": 39.90053480002098
+        "duration_seconds": 35.01205810002284
       },
       "with_diff_percentage": {
         "category": "None",
         "severity": "None",
         "confidence": 1.0,
         "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 19.22370870001032
+        "duration_seconds": 18.54916470000171
       },
       "with_diff_mask_and_percentage": {
         "category": "None",
         "severity": "None",
         "confidence": 1.0,
         "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 41.11275359999854
+        "duration_seconds": 35.5234049000137
       }
     }
   },
   {
-    "screenshot": "signup/01-not-signed-in-course-overview.png",
+    "screenshot": "02.png",
     "difference_percentage": 0.0,
     "ai": {
       "screenshots_only": {
@@ -518,67 +42,33 @@
         "severity": "None",
         "confidence": 1.0,
         "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 47.970333500008564
+        "duration_seconds": 17.700106499978574
       },
       "with_diff_mask": {
         "category": "None",
         "severity": "None",
         "confidence": 1.0,
         "description": "There are no visual differences between the baseline and the updated screenshots.",
-        "duration_seconds": 37.935634099994786
+        "duration_seconds": 35.52211329998681
       },
       "with_diff_percentage": {
         "category": "None",
         "severity": "None",
         "confidence": 1.0,
         "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 19.964992399996845
+        "duration_seconds": 18.949228899989976
       },
       "with_diff_mask_and_percentage": {
         "category": "None",
         "severity": "None",
         "confidence": 1.0,
         "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 39.64335550001124
+        "duration_seconds": 35.81134769998607
       }
     }
   },
   {
-    "screenshot": "signup/02-signed-up-course-overview.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1,
-        "description": "The two screenshots appear to be identical in terms of layout, content, and appearance. There are no visible differences between the baseline and the updated version.",
-        "duration_seconds": 50.602649699983886
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the baseline and updated screenshots.",
-        "duration_seconds": 39.2019896999991
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 18.9506728000124
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 42.31010379997315
-      }
-    }
-  },
-  {
-    "screenshot": "signup/02-signup-empty-form.png",
+    "screenshot": "03.png",
     "difference_percentage": 0.0,
     "ai": {
       "screenshots_only": {
@@ -586,67 +76,33 @@
         "severity": "None",
         "confidence": 1.0,
         "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 47.609899300005054
+        "duration_seconds": 17.846563500002958
       },
       "with_diff_mask": {
         "category": "None",
         "severity": "None",
         "confidence": 1.0,
-        "description": "There are no visual differences between the baseline and updated screenshots.",
-        "duration_seconds": 39.8409171999956
+        "description": "There are no visual differences between the baseline and the updated screenshots.",
+        "duration_seconds": 35.89829919999465
       },
       "with_diff_percentage": {
         "category": "None",
         "severity": "None",
         "confidence": 1.0,
         "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 19.125218599976506
+        "duration_seconds": 18.883349799987627
       },
       "with_diff_mask_and_percentage": {
         "category": "None",
         "severity": "None",
         "confidence": 1.0,
         "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 41.10698599999887
+        "duration_seconds": 36.21828999998979
       }
     }
   },
   {
-    "screenshot": "signup/03-signup-filled-form.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical in terms of visual content, layout, and text. There are no differences observed.",
-        "duration_seconds": 51.205436300020665
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the baseline and updated screenshots.",
-        "duration_seconds": 38.939787899988005
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 19.108649500005413
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 39.0572489000042
-      }
-    }
-  },
-  {
-    "screenshot": "update_course/01-course-overview.png",
+    "screenshot": "04.png",
     "difference_percentage": 0.0,
     "ai": {
       "screenshots_only": {
@@ -654,135 +110,33 @@
         "severity": "None",
         "confidence": 1.0,
         "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 46.66948820001562
+        "duration_seconds": 17.782402300013928
       },
       "with_diff_mask": {
         "category": "None",
         "severity": "None",
         "confidence": 1.0,
-        "description": "There are no visual differences between the baseline and updated screenshots.",
-        "duration_seconds": 41.84510879998561
+        "description": "There are no visual differences between the baseline and the updated screenshots.",
+        "duration_seconds": 35.87661669999943
       },
       "with_diff_percentage": {
         "category": "None",
         "severity": "None",
         "confidence": 1.0,
         "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 19.107378200016683
+        "duration_seconds": 18.962640200013993
       },
       "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 42.00272629997926
-      }
-    }
-  },
-  {
-    "screenshot": "update_course/02-course-details.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
-        "duration_seconds": 52.79903049999848
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the two screenshots.",
-        "duration_seconds": 38.67523240001174
-      },
-      "with_diff_percentage": {
         "category": "None",
         "severity": "None",
         "confidence": 1.0,
         "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 19.882866800006013
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 40.289082999981474
+        "duration_seconds": 36.14542660000734
       }
     }
   },
   {
-    "screenshot": "update_course/03-previous-course-data.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the visual presentation or content between the baseline and the updated version.",
-        "duration_seconds": 53.18360550000216
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the two screenshots provided.",
-        "duration_seconds": 38.321599500020966
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 19.56890700000804
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 42.24120849999599
-      }
-    }
-  },
-  {
-    "screenshot": "update_course/04-updated-course-data.png",
-    "difference_percentage": 0.0,
-    "ai": {
-      "screenshots_only": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in text, color, size, or any other visual aspect.",
-        "duration_seconds": 51.915560099994764
-      },
-      "with_diff_mask": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "There are no visual differences between the baseline and updated screenshots.",
-        "duration_seconds": 38.627371699985815
-      },
-      "with_diff_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots are identical in terms of visual content, layout, and text. There are no differences in the components, their positions, sizes, colors, or text truncation. The content and appearance of the web page are the same in both screenshots.",
-        "duration_seconds": 30.384374300017953
-      },
-      "with_diff_mask_and_percentage": {
-        "category": "None",
-        "severity": "None",
-        "confidence": 1.0,
-        "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 40.519935699994676
-      }
-    }
-  },
-  {
-    "screenshot": "update_course/05-updated-course-in-overview.png",
+    "screenshot": "05.png",
     "difference_percentage": 0.0,
     "ai": {
       "screenshots_only": {
@@ -790,28 +144,198 @@
         "severity": "None",
         "confidence": 1.0,
         "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 47.25373880000552
+        "duration_seconds": 17.97468850002042
       },
       "with_diff_mask": {
         "category": "None",
         "severity": "None",
         "confidence": 1.0,
-        "description": "There are no visual differences between the baseline and updated screenshots.",
-        "duration_seconds": 39.717826999985846
+        "description": "There are no visual differences between the baseline and the updated screenshots.",
+        "duration_seconds": 35.69407739999588
       },
       "with_diff_percentage": {
         "category": "None",
         "severity": "None",
         "confidence": 1.0,
         "description": "The two screenshots are identical with no visual differences detected.",
-        "duration_seconds": 20.02999589999672
+        "duration_seconds": 18.887724400003208
       },
       "with_diff_mask_and_percentage": {
         "category": "None",
         "severity": "None",
         "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 36.25897409999743
+      }
+    }
+  },
+  {
+    "screenshot": "06.png",
+    "difference_percentage": 0.0,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
         "description": "The two screenshots appear to be identical with no visual differences detected.",
-        "duration_seconds": 40.53956149998703
+        "duration_seconds": 17.83215599998948
+      },
+      "with_diff_mask": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the baseline and the updated screenshots.",
+        "duration_seconds": 36.05610469999374
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 18.93337430001702
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 36.28884520000429
+      }
+    }
+  },
+  {
+    "screenshot": "07.png",
+    "difference_percentage": 0.0,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical with no visual differences detected.",
+        "duration_seconds": 17.69581089998246
+      },
+      "with_diff_mask": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the baseline and the updated screenshots.",
+        "duration_seconds": 36.497377899999265
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 19.15938379999716
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 36.2708597999881
+      }
+    }
+  },
+  {
+    "screenshot": "08.png",
+    "difference_percentage": 0.0,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical with no visual differences detected.",
+        "duration_seconds": 18.052472499985015
+      },
+      "with_diff_mask": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the baseline and the updated screenshots.",
+        "duration_seconds": 35.85475599998608
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 19.148588800017023
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 36.29713150000316
+      }
+    }
+  },
+  {
+    "screenshot": "09.png",
+    "difference_percentage": 0.0,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical with no visual differences detected.",
+        "duration_seconds": 17.937261700019008
+      },
+      "with_diff_mask": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the baseline and the updated screenshots.",
+        "duration_seconds": 36.065149400004884
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 19.037049600010505
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 36.33230890001869
+      }
+    }
+  },
+  {
+    "screenshot": "10.png",
+    "difference_percentage": 0.0,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots appear to be identical with no visual differences detected.",
+        "duration_seconds": 17.800152399984654
+      },
+      "with_diff_mask": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the baseline and the updated screenshots.",
+        "duration_seconds": 36.37533810001332
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 18.9438744999934
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "The two screenshots are identical with no visual differences detected.",
+        "duration_seconds": 36.16416419998859
       }
     }
   }
