@@ -1,0 +1,402 @@
+[
+  {
+    "screenshot": "01.png",
+    "difference_percentage": 16.779089506172838,
+    "ai": {
+      "screenshots_only": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course boxes has changed from purple to orange.",
+        "duration_seconds": 40.5920141999959
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 34.06777829999919
+      },
+      "with_diff_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 19.31836150001618
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 36.16673749999609
+      }
+    },
+    "faulty_file": "src/Components/Courses/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail variable assignment",
+    "code_description": "The visual regression test reports a color change from purple to orange for the course boxes. Reviewing the code, the `CourseDetail` component dynamically renders the course details. The assignment `courseDetail = <div className=\"wrap\">...</div>` is likely the issue. The value of the `course` variable is dependent on the data fetched from the API. It is possible that the styling is either being overriden at a higher level, or if a new theme has been introduced which changes the CSS styles. The assignment of `courseDetail` itself is likely not the fault but rather the way CSS styling or theming is implemented and affecting the overall color.",
+    "recommendation": "Investigate the CSS styling applied to the elements within the dynamically rendered `courseDetail` component. Examine potential global styles or theme overrides that might be affecting the color of the course boxes. There is a possibility the data being retrieved is also affected.",
+    "duration_seconds": 54.35735780000687
+  },
+  {
+    "screenshot": "02.png",
+    "difference_percentage": 16.779089506172838,
+    "ai": {
+      "screenshots_only": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course boxes has changed from purple to orange.",
+        "duration_seconds": 18.680428200023016
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 34.94706989999395
+      },
+      "with_diff_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 19.139751300011994
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 36.838842899975134
+      }
+    },
+    "faulty_file": "src/Components/Courses/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail variable assignment",
+    "code_description": "The problem lies in the `CourseDetail.js` component. The `courseDetail` variable is declared as `let courseDetail = useState('')` which initializes it as an empty string. However, it's later reassigned with a div element within an `if` statement based on the presence of `course.id`. This reassignment causes a re-render where an empty string is initially displayed, which potentially leads to a flash of purple (the default background color) before the orange color is applied when `course.id` is populated.  The initialization of `courseDetail` to an empty string makes it not a React component, which triggers unnecessary rendering and can contribute to visual flickering. The variable `courseDetail` is also never properly set if `course.id` is null, leading to a likely crash",
+    "recommendation": "Change the `courseDetail` variable declaration to `const courseDetail` and move the element definition outside of the `if` block, initializing with `null` instead of an empty string.  This ensures the variable is properly set regardless of the course's existence and that it isn't being reassigned which causes potential render issues. Also, add a fallback display for when the course is not found",
+    "duration_seconds": 51.65232309998828
+  },
+  {
+    "screenshot": "03.png",
+    "difference_percentage": 16.779089506172838,
+    "ai": {
+      "screenshots_only": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course boxes has changed from purple to orange.",
+        "duration_seconds": 18.56082429998787
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 35.524968599987915
+      },
+      "with_diff_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 19.36173879998387
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 36.86486050000531
+      }
+    },
+    "faulty_file": "src/Components/Courses/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail assignment within useEffect",
+    "code_description": "The `courseDetail` variable is being reassigned within the `useEffect` hook in `CourseDetail.js`. The initial declaration `let courseDetail = useState('');` is incorrect; it should not be combined with useState. This leads to incorrect rendering and potentially unexpected styling/color properties being applied, resulting in the observed color change from purple to orange.  The component is attempting to update a variable `courseDetail` within the `useEffect` hook, but this variable is not managed by React's state mechanism. This leads to stale closures and incorrect rendering of the component. It is a misinterpretation of the response from the API call, as the response object is assigned to the *variable*, instead of assigning the response to the state variable `course`.",
+    "recommendation": "Replace: `let courseDetail = useState('');` with `let course;`\nReplace: `setCourseDetail(response)` with `setCourse(response)`",
+    "duration_seconds": 43.788588300027186
+  },
+  {
+    "screenshot": "04.png",
+    "difference_percentage": 16.779089506172838,
+    "ai": {
+      "screenshots_only": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course boxes has changed from purple to orange.",
+        "duration_seconds": 18.836915599997155
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 35.226063200010685
+      },
+      "with_diff_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 19.520925099990563
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 36.72676370001864
+      }
+    },
+    "faulty_file": "src/Components/Courses/Courses.js",
+    "faulty_component": "Courses",
+    "faulty_property": "course--link className",
+    "code_description": "The visual regression test indicates a color change from purple to orange on the course boxes. Examining the `src/Components/Courses/Courses.js` file, we find the following line: `<Link to={\\`/courses/${course.id}\\`}` className=\"course--link\" key={course.id}>`. This line applies the `course--link` class to the link elements that render the course boxes.  The `course--link` class is defined in `src/styles/global.css`. The problem lies in the fact that the color of the `course--module` (background) is defined for the `course--link` as `#f3813f`, but it is a color that is visually identified as 'orange' by the visual regression test tool, rather than 'purple'.  It appears the intent was for the course boxes to be purple, and something has changed such that the orange color is now applied.",
+    "recommendation": "Change the `#f3813f` color in `src/styles/global.css` to a purple color, such as `#800080` (violet) or a similar shade, to match the baseline.",
+    "duration_seconds": 50.16844670000137
+  },
+  {
+    "screenshot": "05.png",
+    "difference_percentage": 16.779089506172838,
+    "ai": {
+      "screenshots_only": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course boxes has changed from purple to orange.",
+        "duration_seconds": 18.953521399991587
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 35.317390800017165
+      },
+      "with_diff_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 19.337501100002555
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 37.16964129998814
+      }
+    },
+    "faulty_file": "src/Components/Courses/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail variable assignment",
+    "code_description": "The `courseDetail` variable is being assigned a JSX element directly within the `CourseDetail` component using a conditional statement. However, this assignment uses a variable `courseDetail` that is also used as a `useState` hook. The JSX element assigned to the `courseDetail` variable overrides the state value. This is a problematic pattern because it is not triggering a re-render of the component based on new data from the state. The color change from purple to orange most likely stems from an external CSS rule affecting the styling. The variable assignment is interfering with the React lifecycle and preventing the component from re-rendering correctly to apply the intended styles.",
+    "recommendation": "Remove the direct assignment of JSX to `courseDetail`. Instead, conditionally render the component based on the `course` state, ensuring a re-render when `course` changes. For example:\n\n```javascript\nif (course) {\n  return (\n    <div>\n      {/* Course Detail Content */} \n    </div>\n  );\n} else {\n  return <Loading />;\n}\n```\n\nThis approach ensures React manages the component's state and rendering based on `course` changes, allowing CSS styles to be applied correctly.",
+    "duration_seconds": 51.402929099975154
+  },
+  {
+    "screenshot": "06.png",
+    "difference_percentage": 16.779089506172838,
+    "ai": {
+      "screenshots_only": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course boxes has changed from purple to orange.",
+        "duration_seconds": 18.924124600016512
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 35.57484270000714
+      },
+      "with_diff_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 19.551266900001792
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 37.01480450000963
+      }
+    },
+    "faulty_file": "src/Components/Courses/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail variable assignment",
+    "code_description": "The `courseDetail` variable is being assigned a JSX element inline within the `CourseDetail` component. However, the variable is being reassigned to a JSX element *before* the `course` state is populated with data fetched from the API. This means that the initial rendering will show a `div` element rather than the expected course details when the data is loaded. This assignment happens with `if (course.id) { courseDetail = ... }`.  Since the initial value of `course` is an empty object, `course.id` is falsey, therefore the code isn't rendered, until `course` gets assigned. If the `course` values change from their initial state, the variable `courseDetail` can now contain this new JSX element. This change from `undefined` to JSX results in the unexpected color change. This isn't a color setting directly, but rather a structural difference in how the page is rendered.",
+    "recommendation": "Instead of assigning directly to the `courseDetail` variable, render the `course` conditionally within the JSX. For example:\n\n```javascript\n{\n  isLoading ? (\n    <Loading />\n  ) : course ? (\n    <div className=\"wrap\">\n      <h2 >Course Detail</h2 >\n      <div className=\"main--flex\">\n        {/* ... Course Details JSX ... }\n      </div>\n    </div>\n  ) : null\n}\n```\n\nThis will ensure that the `Loading` component is displayed while the data is being fetched, and then the course details are rendered when the data is available, preventing the initial render with a `div`.",
+    "duration_seconds": 62.29294049998862
+  },
+  {
+    "screenshot": "07.png",
+    "difference_percentage": 16.779089506172838,
+    "ai": {
+      "screenshots_only": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course boxes has changed from purple to orange.",
+        "duration_seconds": 18.841073500021594
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 35.491323599999305
+      },
+      "with_diff_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 19.651063800003612
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 36.74621519999346
+      }
+    },
+    "faulty_file": "src/Components/Courses/Courses.js",
+    "faulty_component": "Courses",
+    "faulty_property": "course--module.course--link",
+    "code_description": "The visual regression test indicates a color change from purple to orange for course boxes. Examining the `src/Components/Courses/Courses.js` file, specifically the `course--module course--link` class, reveals a background color of `#f3813f` which is likely the cause of the orange color. The provided code snippet is responsible for rendering the list of courses. There is no explicit styling or logic that changes this color dynamically. Therefore, the color change probably results from a modification in a CSS file that is not included in the snippet.",
+    "recommendation": "Inspect the CSS file that contains the styling for the `course--module course--link` class to determine the reason for the color change and revert it to the original purple color if desired.",
+    "duration_seconds": 40.83147929998813
+  },
+  {
+    "screenshot": "08.png",
+    "difference_percentage": 16.779089506172838,
+    "ai": {
+      "screenshots_only": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course boxes has changed from purple to orange.",
+        "duration_seconds": 18.914604899997357
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 35.66951949999202
+      },
+      "with_diff_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 19.238824000000022
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 37.2388626000029
+      }
+    },
+    "faulty_file": "src/Components/Courses/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail",
+    "code_description": "The color change from purple to orange is likely due to the incorrect assignment of the `courseDetail` variable.  The code attempts to conditionally render a `div` based on whether `course.id` exists, and within this conditionally rendered `div`, hardcoded styling is applied. This styling is likely the culprit for the unexpected color change.  Crucially, `courseDetail` is initialized as an empty string and later assigned the conditionally rendered `div` element. The `course.id` check itself and the surrounding conditional rendering logic are fine; the issue is the styling *within* that conditionally rendered block that's causing the unwanted color change. The color isn't being applied from a CSS file but is being set inline.",
+    "recommendation": "The inline styles need to be reviewed and adjusted to match the expected color scheme. A better approach would be to define a CSS class to apply the intended styling and then assign this class in the conditional rendering based on whether the course exists. If the application's styling is managed with CSS variables, then the styling should be adjusted to use these variables to maintain consistency.",
+    "duration_seconds": 47.374349400022766
+  },
+  {
+    "screenshot": "09.png",
+    "difference_percentage": 16.779089506172838,
+    "ai": {
+      "screenshots_only": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course boxes has changed from purple to orange.",
+        "duration_seconds": 18.568515999999363
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 35.62202890001936
+      },
+      "with_diff_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 19.292343199980678
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 37.24469439999666
+      }
+    },
+    "faulty_file": "src/Components/Courses/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail assignment",
+    "code_description": "The issue lies within the `CourseDetail.js` component. Specifically, the `courseDetail` variable is being initialized as an empty string using `let courseDetail = useState('');`  However, this variable is reassigned within a conditional block (when `course.id` exists) to an HTML div containing course details. Due to this re-assignment and improper handling of `courseDetail`'s state, it doesn't trigger a re-render with updated styling/content, leading to unexpected visual differences. This prevents the component from correctly displaying the course details in the proper color (orange, as per the visual regression test), and results in the incorrect display - instead of the orange expected color, it might display a default color or be incomplete.",
+    "recommendation": "Change `let courseDetail = useState('');` to `const [courseDetail, setCourseDetail] = useState(null);` and change the assignment to `setCourseDetail(<div className=\"wrap\"> ... </div>);`. This ensures that `courseDetail` is properly managed as a React state variable, triggering re-renders when the course data changes, and ensuring the correct styling is applied and the component updates correctly.",
+    "duration_seconds": 49.17800889999489
+  },
+  {
+    "screenshot": "10.png",
+    "difference_percentage": 16.779089506172838,
+    "ai": {
+      "screenshots_only": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course boxes has changed from purple to orange.",
+        "duration_seconds": 18.709732899995288
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 35.45742769999197
+      },
+      "with_diff_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 19.393710400006967
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course cards has changed from purple to orange.",
+        "duration_seconds": 36.804544000013266
+      }
+    },
+    "faulty_file": "src/Components/Courses/CourseDetail.js",
+    "faulty_component": "CourseDetail",
+    "faulty_property": "courseDetail variable assignment",
+    "code_description": "The visual regression test detected a color change from purple to orange in the course boxes. Examining the code, the `CourseDetail` component directly assigns a JSX element to the `courseDetail` variable. The problem is that `courseDetail` is declared as `const courseDetail = useState('')`, but is then assigned a JSX element.  This is wrong because it is attempting to assign the return value of a JSX expression to a `const` variable. This looks like an attempt to set an internal state variable based on external data and render it as a component on the page. It's likely that this is where the color is being set, so a change in an external data source is likely to be what caused this change.",
+    "recommendation": "Remove the const courseDetail = useState('') declaration and the assignment of JSX to the courseDetail variable. Let the variable be assigned the `course` object in the return statement, so the code becomes `return ( isLoading ? <Loading /> : course ? <div> ... </div> : null )`",
+    "duration_seconds": 45.668897900002776
+  }
+]
