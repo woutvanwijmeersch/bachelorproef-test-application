@@ -1,0 +1,342 @@
+[
+  {
+    "screenshot": "01.png",
+    "difference_percentage": 8.675148053361028,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "There are no visual differences between the two screenshots. Both show the same content with the same layout, text, and color.",
+        "duration_seconds": 20.302715300000273
+      },
+      "with_diff_mask": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course title and course description has changed color from black to purple.",
+        "duration_seconds": 46.19601069999044
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the text, images, or any other components. The only difference is the 8.68% pixel discrepancy, which is likely due to minor rounding or display inconsistencies rather than a deliberate change.",
+        "duration_seconds": 31.987523399991915
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course description and materials list appears to be in a different font or font style in the updated screenshot compared to the baseline. The baseline text is in a serif font, while the updated version uses a sans-serif font.",
+        "duration_seconds": 55.10736480000196
+      }
+    }
+  },
+  {
+    "screenshot": "02.png",
+    "difference_percentage": 8.675148053361028,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "There are no visual differences between the two screenshots. Both show the same content with the same layout, text, and color.",
+        "duration_seconds": 21.255280200013658
+      },
+      "with_diff_mask": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course title and course description has changed color from black to purple.",
+        "duration_seconds": 47.565291800012346
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the text, images, or any other components. The only difference is the 8.68% pixel discrepancy, which is likely due to minor rounding or display inconsistencies rather than a deliberate change.",
+        "duration_seconds": 32.30863300000783
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course description and materials list appears to be in a different font or font style in the updated screenshot compared to the baseline. The baseline text is in a serif font, while the updated version uses a sans-serif font.",
+        "duration_seconds": 55.976778500014916
+      }
+    }
+  },
+  {
+    "screenshot": "03.png",
+    "difference_percentage": 8.675148053361028,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "There are no visual differences between the two screenshots. Both show the same content with the same layout, text, and color.",
+        "duration_seconds": 21.668895799986785
+      },
+      "with_diff_mask": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course title and course description has changed color from black to purple.",
+        "duration_seconds": 48.1667067000235
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the text, images, or any other components. The only difference is the 8.68% pixel discrepancy, which is likely due to minor rounding or display inconsistencies rather than a deliberate change.",
+        "duration_seconds": 31.74380550000933
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course description and materials list appears to be in a different font or font style in the updated screenshot compared to the baseline. The baseline text is in a serif font, while the updated version uses a sans-serif font.",
+        "duration_seconds": 55.25444410002092
+      }
+    }
+  },
+  {
+    "screenshot": "04.png",
+    "difference_percentage": 8.675148053361028,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "There are no visual differences between the two screenshots. Both show the same content with the same layout, text, and color.",
+        "duration_seconds": 21.437898400006816
+      },
+      "with_diff_mask": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course title and course description has changed color from black to purple.",
+        "duration_seconds": 47.80429150001146
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the text, images, or any other components. The only difference is the 8.68% pixel discrepancy, which is likely due to minor rounding or display inconsistencies rather than a deliberate change.",
+        "duration_seconds": 31.792029100004584
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course description and materials list appears to be in a different font or font style in the updated screenshot compared to the baseline. The baseline text is in a serif font, while the updated version uses a sans-serif font.",
+        "duration_seconds": 55.71577320000506
+      }
+    }
+  },
+  {
+    "screenshot": "05.png",
+    "difference_percentage": 8.675148053361028,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "There are no visual differences between the two screenshots. Both show the same content with the same layout, text, and color.",
+        "duration_seconds": 21.72126390002086
+      },
+      "with_diff_mask": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course title and course description has changed color from black to purple.",
+        "duration_seconds": 48.016225800005486
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the text, images, or any other components. The only difference is the 8.68% pixel discrepancy, which is likely due to minor rounding or display inconsistencies rather than a deliberate change.",
+        "duration_seconds": 32.20953809999628
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course description and materials list appears to be in a different font or font style in the updated screenshot compared to the baseline. The baseline text is in a serif font, while the updated version uses a sans-serif font.",
+        "duration_seconds": 56.11355849998654
+      }
+    }
+  },
+  {
+    "screenshot": "06.png",
+    "difference_percentage": 8.675148053361028,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "There are no visual differences between the two screenshots. Both show the same content with the same layout, text, and color.",
+        "duration_seconds": 21.673519200005103
+      },
+      "with_diff_mask": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course title and course description has changed color from black to purple.",
+        "duration_seconds": 47.87524689998827
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the text, images, or any other components. The only difference is the 8.68% pixel discrepancy, which is likely due to minor rounding or display inconsistencies rather than a deliberate change.",
+        "duration_seconds": 31.849825399986003
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course description and materials list appears to be in a different font or font style in the updated screenshot compared to the baseline. The baseline text is in a serif font, while the updated version uses a sans-serif font.",
+        "duration_seconds": 55.80259579999256
+      }
+    }
+  },
+  {
+    "screenshot": "07.png",
+    "difference_percentage": 8.675148053361028,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "There are no visual differences between the two screenshots. Both show the same content with the same layout, text, and color.",
+        "duration_seconds": 21.48784469999373
+      },
+      "with_diff_mask": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course title and course description has changed color from black to purple.",
+        "duration_seconds": 48.22413499999675
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the text, images, or any other components. The only difference is the 8.68% pixel discrepancy, which is likely due to minor rounding or display inconsistencies rather than a deliberate change.",
+        "duration_seconds": 32.72615410000435
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course description and materials list appears to be in a different font or font style in the updated screenshot compared to the baseline. The baseline text is in a serif font, while the updated version uses a sans-serif font.",
+        "duration_seconds": 55.95122779998928
+      }
+    }
+  },
+  {
+    "screenshot": "08.png",
+    "difference_percentage": 8.675148053361028,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "There are no visual differences between the two screenshots. Both show the same content with the same layout, text, and color.",
+        "duration_seconds": 21.89521440002136
+      },
+      "with_diff_mask": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course title and course description has changed color from black to purple.",
+        "duration_seconds": 48.47913999998127
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the text, images, or any other components. The only difference is the 8.68% pixel discrepancy, which is likely due to minor rounding or display inconsistencies rather than a deliberate change.",
+        "duration_seconds": 31.69817129999865
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course description and materials list appears to be in a different font or font style in the updated screenshot compared to the baseline. The baseline text is in a serif font, while the updated version uses a sans-serif font.",
+        "duration_seconds": 88.87015350000001
+      }
+    }
+  },
+  {
+    "screenshot": "09.png",
+    "difference_percentage": 8.675148053361028,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "There are no visual differences between the two screenshots. Both show the same content with the same layout, text, and color.",
+        "duration_seconds": 23.29072379998979
+      },
+      "with_diff_mask": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course title and course description has changed color from black to purple.",
+        "duration_seconds": 50.502416999981506
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the text, images, or any other components. The only difference is the 8.68% pixel discrepancy, which is likely due to minor rounding or display inconsistencies rather than a deliberate change.",
+        "duration_seconds": 32.45503050001571
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course description and materials list appears to be in a different font or font style in the updated screenshot compared to the baseline. The baseline text is in a serif font, while the updated version uses a sans-serif font.",
+        "duration_seconds": 56.24834659998305
+      }
+    }
+  },
+  {
+    "screenshot": "10.png",
+    "difference_percentage": 8.675148053361028,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "There are no visual differences between the two screenshots. Both show the same content with the same layout, text, and color.",
+        "duration_seconds": 21.760947599977953
+      },
+      "with_diff_mask": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course title and course description has changed color from black to purple.",
+        "duration_seconds": 49.06707260000985
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 0.95,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no noticeable differences in the text, images, or any other components. The only difference is the 8.68% pixel discrepancy, which is likely due to minor rounding or display inconsistencies rather than a deliberate change.",
+        "duration_seconds": 32.96842649998143
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Typography change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The text in the course description and materials list appears to be in a different font or font style in the updated screenshot compared to the baseline. The baseline text is in a serif font, while the updated version uses a sans-serif font.",
+        "duration_seconds": 57.906503299978795
+      }
+    }
+  }
+]
