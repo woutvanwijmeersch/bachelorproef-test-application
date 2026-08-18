@@ -1,0 +1,342 @@
+[
+  {
+    "screenshot": "01.png",
+    "difference_percentage": 15.222916666666666,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the two screenshots.",
+        "duration_seconds": 43.45679209998343
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course titles and descriptions has changed from a darker purple to a lighter purple in the updated screenshot.",
+        "duration_seconds": 40.26023279997753
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the positioning, size, color, text, or any other aspect that would indicate a change between the baseline and the updated version.",
+        "duration_seconds": 30.78918329998851
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The background color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 46.71574270003475
+      }
+    }
+  },
+  {
+    "screenshot": "02.png",
+    "difference_percentage": 15.222916666666666,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the two screenshots.",
+        "duration_seconds": 19.495965599955525
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course titles and descriptions has changed from a darker purple to a lighter purple in the updated screenshot.",
+        "duration_seconds": 43.51566589996219
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the positioning, size, color, text, or any other aspect that would indicate a change between the baseline and the updated version.",
+        "duration_seconds": 28.847111300041433
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The background color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 45.89630760002183
+      }
+    }
+  },
+  {
+    "screenshot": "03.png",
+    "difference_percentage": 15.222916666666666,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the two screenshots.",
+        "duration_seconds": 21.985605699999724
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course titles and descriptions has changed from a darker purple to a lighter purple in the updated screenshot.",
+        "duration_seconds": 45.18439179996494
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the positioning, size, color, text, or any other aspect that would indicate a change between the baseline and the updated version.",
+        "duration_seconds": 30.263361499994062
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The background color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 44.94131500000367
+      }
+    }
+  },
+  {
+    "screenshot": "04.png",
+    "difference_percentage": 15.222916666666666,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the two screenshots.",
+        "duration_seconds": 18.99084210000001
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course titles and descriptions has changed from a darker purple to a lighter purple in the updated screenshot.",
+        "duration_seconds": 43.52696180000203
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the positioning, size, color, text, or any other aspect that would indicate a change between the baseline and the updated version.",
+        "duration_seconds": 28.319443800020963
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The background color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 44.252655300020706
+      }
+    }
+  },
+  {
+    "screenshot": "05.png",
+    "difference_percentage": 15.222916666666666,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the two screenshots.",
+        "duration_seconds": 21.85396789998049
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course titles and descriptions has changed from a darker purple to a lighter purple in the updated screenshot.",
+        "duration_seconds": 45.19640429998981
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the positioning, size, color, text, or any other aspect that would indicate a change between the baseline and the updated version.",
+        "duration_seconds": 31.985428800049704
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The background color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 44.48606269998709
+      }
+    }
+  },
+  {
+    "screenshot": "06.png",
+    "difference_percentage": 15.222916666666666,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the two screenshots.",
+        "duration_seconds": 19.6317630999838
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course titles and descriptions has changed from a darker purple to a lighter purple in the updated screenshot.",
+        "duration_seconds": 44.200054099957924
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the positioning, size, color, text, or any other aspect that would indicate a change between the baseline and the updated version.",
+        "duration_seconds": 29.468161199998576
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The background color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 45.33912530000089
+      }
+    }
+  },
+  {
+    "screenshot": "07.png",
+    "difference_percentage": 15.222916666666666,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the two screenshots.",
+        "duration_seconds": 22.034716800029855
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course titles and descriptions has changed from a darker purple to a lighter purple in the updated screenshot.",
+        "duration_seconds": 42.46998439996969
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the positioning, size, color, text, or any other aspect that would indicate a change between the baseline and the updated version.",
+        "duration_seconds": 31.15079040004639
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The background color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 45.355340800015256
+      }
+    }
+  },
+  {
+    "screenshot": "08.png",
+    "difference_percentage": 15.222916666666666,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the two screenshots.",
+        "duration_seconds": 22.027016400010325
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course titles and descriptions has changed from a darker purple to a lighter purple in the updated screenshot.",
+        "duration_seconds": 48.695150599989574
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the positioning, size, color, text, or any other aspect that would indicate a change between the baseline and the updated version.",
+        "duration_seconds": 30.553681099961977
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The background color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 43.77005769999232
+      }
+    }
+  },
+  {
+    "screenshot": "09.png",
+    "difference_percentage": 15.222916666666666,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the two screenshots.",
+        "duration_seconds": 19.889028200006578
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course titles and descriptions has changed from a darker purple to a lighter purple in the updated screenshot.",
+        "duration_seconds": 44.44044340000255
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the positioning, size, color, text, or any other aspect that would indicate a change between the baseline and the updated version.",
+        "duration_seconds": 31.946109700016677
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The background color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 46.43112279998604
+      }
+    }
+  },
+  {
+    "screenshot": "10.png",
+    "difference_percentage": 15.222916666666666,
+    "ai": {
+      "screenshots_only": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1.0,
+        "description": "There are no visual differences between the two screenshots.",
+        "duration_seconds": 22.499821799981873
+      },
+      "with_diff_mask": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The color of the course titles and descriptions has changed from a darker purple to a lighter purple in the updated screenshot.",
+        "duration_seconds": 43.850444000039715
+      },
+      "with_diff_percentage": {
+        "category": "None",
+        "severity": "None",
+        "confidence": 1,
+        "description": "The two screenshots appear to be identical in terms of layout, content, and visual elements. There are no differences in the positioning, size, color, text, or any other aspect that would indicate a change between the baseline and the updated version.",
+        "duration_seconds": 29.411343800020404
+      },
+      "with_diff_mask_and_percentage": {
+        "category": "Color change",
+        "severity": "Small",
+        "confidence": 0.95,
+        "description": "The background color of the course cards has changed from purple to a darker shade of purple.",
+        "duration_seconds": 39.929818900011014
+      }
+    }
+  }
+]
