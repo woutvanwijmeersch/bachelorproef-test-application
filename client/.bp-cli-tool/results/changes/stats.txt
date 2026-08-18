@@ -1,0 +1,87 @@
+=== enkel screenshots (screenshots_only) ===
+
+Categorieen:
+  None: 10
+  Layout change: 0
+  Size change: 0
+  Color change: 0
+  Text truncation: 0
+  Overlapping content: 0
+  Missing content: 0
+  Typography change: 0
+  Other: 0
+
+Ernst:
+  None: 10
+  Small: 0
+  Medium: 0
+  Large: 0
+
+Gemiddelde duur: 0:34
+Gemiddelde zekerheid: 1.00
+
+=== screenshots en difference mask (with_diff_mask) ===
+
+Categorieen:
+  None: 0
+  Layout change: 0
+  Size change: 0
+  Color change: 10
+  Text truncation: 0
+  Overlapping content: 0
+  Missing content: 0
+  Typography change: 0
+  Other: 0
+
+Ernst:
+  None: 0
+  Small: 10
+  Medium: 0
+  Large: 0
+
+Gemiddelde duur: 0:47
+Gemiddelde zekerheid: 0.95
+
+=== screenshots en pixel difference percentage (with_diff_percentage) ===
+
+Categorieen:
+  None: 0
+  Layout change: 0
+  Size change: 0
+  Color change: 0
+  Text truncation: 10
+  Overlapping content: 0
+  Missing content: 0
+  Typography change: 0
+  Other: 0
+
+Ernst:
+  None: 0
+  Small: 10
+  Medium: 0
+  Large: 0
+
+Gemiddelde duur: 0:33
+Gemiddelde zekerheid: 0.95
+
+=== screenshots, pixel difference percentage en difference mask (with_diff_mask_and_percentage) ===
+
+Categorieen:
+  None: 0
+  Layout change: 0
+  Size change: 0
+  Color change: 10
+  Text truncation: 0
+  Overlapping content: 0
+  Missing content: 0
+  Typography change: 0
+  Other: 0
+
+Ernst:
+  None: 0
+  Small: 10
+  Medium: 0
+  Large: 0
+
+Gemiddelde duur: 0:48
+Gemiddelde zekerheid: 0.95
